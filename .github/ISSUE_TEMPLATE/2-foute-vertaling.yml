@@ -1,0 +1,29 @@
+name: Foute vertaling
+description: Een Noors woord heeft een verkeerde of onduidelijke vertaling.
+title: "Vertaling: "
+labels: ["vertaling"]
+body:
+  - type: input
+    id: woord
+    attributes:
+      label: Noors woord
+      placeholder: bra
+    validations:
+      required: true
+  - type: input
+    id: nu
+    attributes:
+      label: Wat de app nu zegt
+      placeholder: braaf
+  - type: input
+    id: voorstel
+    attributes:
+      label: Wat het volgens jou moet zijn
+      placeholder: goed
+    validations:
+      required: true
+  - type: textarea
+    id: uitleg
+    attributes:
+      label: Uitleg of bron
+      description: Mag kort. Bijvoorbeeld een voorbeeldzin, of een link naar ordbokene.no.
