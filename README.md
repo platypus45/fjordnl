@@ -13,4 +13,7 @@ Kies [Nieuwe melding](https://github.com/platypus45/fjordnl/issues/new/choose). 
 
 Let op: meldingen zijn openbaar. Zet er geen persoonlijke gegevens in, en ook niet je koppelcode van Sync.
 
+Hulp bij installeren, Sync en problemen: de [handleiding](HANDLEIDING.md).
+De bestandsversie (zonder installeren, ook offline): [Releases](https://github.com/platypus45/fjordnl/releases/latest).
+
 De code van de app staat niet in deze repository.
