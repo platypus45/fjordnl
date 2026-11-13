@@ -1,0 +1,14 @@
+name: Idee
+description: Iets wat je mist of graag anders ziet.
+labels: ["idee"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Wat is je idee?
+    validations:
+      required: true
+  - type: textarea
+    id: waarom
+    attributes:
+      label: Waarom zou het helpen?

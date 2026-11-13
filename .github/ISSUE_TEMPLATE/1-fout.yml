@@ -1,0 +1,31 @@
+name: Fout in de app
+description: Iets werkt niet of ziet er raar uit.
+labels: ["fout"]
+body:
+  - type: textarea
+    id: wat
+    attributes:
+      label: Wat ging er mis?
+      description: Wat deed je, wat gebeurde er, en wat had je verwacht?
+    validations:
+      required: true
+  - type: input
+    id: waar
+    attributes:
+      label: Waar in de app?
+      placeholder: "Bijvoorbeeld: Kaarten, Grammatica → Bijvoeglijk naamwoord, Instellingen"
+  - type: input
+    id: apparaat
+    attributes:
+      label: Apparaat en browser
+      placeholder: "Bijvoorbeeld: iPhone 13, Safari; of Windows, Chrome"
+  - type: input
+    id: versie
+    attributes:
+      label: Versie
+      description: Onderaan elke pagina staat «Versie» met een code van 10 tekens.
+  - type: textarea
+    id: plaatje
+    attributes:
+      label: Schermafbeelding (mag ook weg)
+      description: Sleep een afbeelding hierheen.

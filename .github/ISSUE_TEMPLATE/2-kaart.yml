@@ -1,0 +1,30 @@
+name: Fout in een kaart of zin
+description: Een vertaling, vorm, uitleg of uitspraak klopt niet.
+labels: ["kaart"]
+body:
+  - type: input
+    id: woord
+    attributes:
+      label: Welk woord of welke zin?
+      placeholder: "Bijvoorbeeld: «bra», of «Da jeg var liten, bodde jeg i Oslo.»"
+    validations:
+      required: true
+  - type: dropdown
+    id: soort
+    attributes:
+      label: Wat klopt er niet?
+      options:
+        - Vertaling
+        - Vorm of spelling
+        - Uitleg
+        - Uitspraak (opname)
+        - Iets anders
+    validations:
+      required: true
+  - type: textarea
+    id: wat
+    attributes:
+      label: Wat zou het moeten zijn?
+      description: Een bron (woordenboek, lesboek) helpt.
+    validations:
+      required: true
